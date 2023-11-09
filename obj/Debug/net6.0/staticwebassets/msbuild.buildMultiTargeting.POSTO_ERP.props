@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\POSTO_ERP.props" />
+</Project>
