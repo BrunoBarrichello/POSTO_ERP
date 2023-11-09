@@ -1,4 +1,5 @@
-﻿using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using System.Text.RegularExpressions;
 
 namespace POSTO_ERP.Models
@@ -11,5 +12,6 @@ namespace POSTO_ERP.Models
         }
 
         public DbSet<CLIENTES> Cliente { get; set; }
+        public DbSet<IdentityUser> IdentityUser { get; set; }
     }
 }
